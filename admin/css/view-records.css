@@ -1,0 +1,105 @@
+#main{
+    width: 76%;
+    overflow-x: hidden;
+}
+#addRecord{
+    width:80%;
+    box-shadow: 0 0 2px 0;
+    border-radius:2px;
+    display:flex;
+    padding:1%;
+    margin:auto;
+    margin-top:20px;
+}
+#addRecord .para{
+    width:70%;
+}
+#addRecord p{
+    font-size:20px;
+    font-weight:bold;
+    margin-right:40px;
+    margin-top:14px;
+}
+#addRecord .upload .fileUpload{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    width:172px;
+    font-weight:bold;
+    letter-spacing:1px;
+    border-radius: 2px 0 0 2px;
+}
+#addRecord #add{
+    width:70px;
+    font-size:17px;
+    font-weight:bold;
+    letter-spacing:1px;
+    cursor: pointer;
+    background: black;
+    border: none;
+    border-radius: 0 2px 2px 0;
+    color: white;
+    transition: .2s;
+}
+#addRecord #add:hover{
+    border:2px solid black;
+    color:black;
+    background: white;
+}
+#viewFiles{
+    width:110%;
+    margin-top:35px;
+}
+#file{
+    display:flex;
+    margin-left: 8%;
+    margin-bottom:25px;
+}
+#number{
+    width:5%;
+    box-shadow:0 0 2px 0;
+    border-radius:2px;
+    margin-right:3%;
+    cursor:pointer;
+    transition:.3s
+}
+#number p{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:20%;
+}
+#fileInfo{
+    width:70%;
+    display:flex;
+    box-shadow:0 0 2px 0;
+    border-radius:2px;
+    padding:1%;
+    cursor:pointer;
+}
+#fileInfo .fileName{
+    width:65%;
+}
+#fileInfo .fileBtns{
+    width:35%;
+}
+#fileInfo .fileBtns button{
+    width:95px;
+    height:35px;
+    margin-left:15px;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:1px;
+    border:none;
+    border-radius:3px;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+    transition: .4s;
+}
+#fileInfo .fileBtns button:hover{
+    background-color:white;
+    color:black;
+    border: 3px solid black;
+}

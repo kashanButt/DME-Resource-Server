@@ -1,0 +1,37 @@
+html{
+    transition: ease;
+    scroll-behavior: smooth;
+}
+a{
+    color: white;
+}
+#content{
+    display: flex;
+    width: 100%;
+    height: 620px;
+}
+#sidebar{
+    width:20%;
+    background-color:black
+}
+#sidebar nav{
+    margin-bottom:30px;
+}
+#sidebar ul{
+    list-style:none;
+    width: 100.8%;
+}
+#sidebar ul li{
+    font-size:17px;
+    font-weight:bold;   
+    letter-spacing:1px;
+    padding:20px;
+}
+#sidebar ul li:hover{
+    background-color:white;
+    color:black;
+    border-right:2px solid white;
+}
+#main #pageUp a{
+    color:white;
+}

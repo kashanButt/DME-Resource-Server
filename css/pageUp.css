@@ -1,0 +1,15 @@
+#pageUp{
+    width:60px;
+    font-size:35px;
+    border-radius:4px;
+    padding:0.4%;
+    text-align:center;
+    position:fixed;
+    bottom: 50px;
+    right:20px;
+    border: 2px solid;
+    transition: 0.3s;
+}
+#main #pageUp a i{
+    color:white;
+}

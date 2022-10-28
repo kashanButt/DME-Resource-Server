@@ -1,0 +1,22 @@
+#pageUp{
+    width:60px;
+    font-size:35px;
+    border-radius:4px;
+    padding:0.4%;
+    text-align:center;
+    position:fixed;
+    bottom: 50px;
+    right:20px;
+    background:black;
+    transition: 0.3s;
+}
+#main #pageUp a{
+    color:white;
+}
+#main #pageUp a:hover{
+    color:black;
+}
+#pageUp:hover{
+    border: 2px solid black;
+    background:white;
+}

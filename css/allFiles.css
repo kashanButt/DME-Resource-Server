@@ -1,0 +1,59 @@
+#container{
+    width: 90%;
+    margin: auto;
+}
+#content{
+    margin-top:30px;
+}
+#file{
+    display:flex;
+    margin-left: 10%;
+    margin-bottom:25px;
+}
+#number{
+    width:5%;
+    box-shadow:0 0 2px 0;
+    border-radius:2px;
+    margin-right:3%;
+    cursor:pointer;
+    transition:.3s
+}
+#number p{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    margin-top:20%;
+}
+#fileInfo{
+    width:72%;
+    display:flex;
+    box-shadow:0 0 2px 0;
+    border-radius:2px;
+    padding:1%;
+    cursor:pointer;
+}
+#fileInfo .fileName{
+    width:65%;
+}
+#fileInfo .fileBtns{
+    width:35%;
+}
+#fileInfo .fileBtns button{
+    width:175px;
+    height:35px;
+    margin-left:15px;
+    font-size:14px;
+    font-weight:bold;
+    letter-spacing:1px;
+    border:none;
+    border-radius:3px;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+    transition: .4s;
+}
+#fileInfo .fileBtns button:hover{
+    background-color:white;
+    color:black;
+    border: 3px solid black;
+}

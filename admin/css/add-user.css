@@ -1,0 +1,50 @@
+#addUser{
+    width:50%;
+    margin:auto;
+    text-align:center;
+    font-weight:bold;
+    letter-spacing:1px;
+    box-shadow:0 0 2px 0;
+    border-radius:4px;
+    margin-top:100px
+}
+#addUser h1{
+    padding-top:20px;
+    letter-spacing:1px
+}
+#addUser input{
+    width:50%;
+    height:20px;
+    padding:5px;
+    margin:20px;
+    font-size:15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 12px;
+}
+#addUser #name{
+    margin-top:50px
+}
+#addUser #create{
+    width:35%;
+    height:35px;
+    background-color:black;
+    border:none;
+    padding:1%;
+    border-radius:3px;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    letter-spacing:1px;
+    transition: 0.3s;
+}
+#addUser #create:hover{
+    color:black;
+    background-color:white;
+    border:2px solid black;
+    color:black;
+}
+.passwordAlert{
+    color:red;
+    display:none;
+}

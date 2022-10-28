@@ -1,0 +1,53 @@
+#users{
+    width:80%;
+    margin:auto;
+}
+#users .heading{
+    margin-top:20px;
+    display:flex;
+    border-radius:3px;
+    font-size:17px;
+    width: 100%;
+    list-style:none;
+    float:left;
+    text-align:center;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+#users .heading .serial{
+    padding:2%;
+    width: 15%;
+}
+#users .heading .username{
+    padding:2%;
+    width: 38%;
+}
+#users .heading .password{
+    padding:2%;
+    width: 35%;
+}
+#users .data{
+    margin-top:20px;
+    display:flex;
+    border-radius:3px;
+    font-size:17px;
+    width: 100%;
+    list-style:none;
+    float:left;
+    box-shadow:0 0 2px 0;
+    text-align:center;
+    cursor: pointer;
+}
+#users .data .serial{
+    padding:2%;
+    width: 15%;
+}
+#users .data .username{
+    padding:2%;
+    width: 38%;
+}
+#users .data .password{
+    padding:2%;
+    width: 35%;
+}
